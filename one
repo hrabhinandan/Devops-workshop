@@ -1,4 +1,15 @@
-gool
-googel
-good bye
-tq
+#sum of natural numbers 
+ #include<iostream>
+using namespace std;
+int main(){
+int n;
+int sum = 0;
+cout<< "input natural numbers:"<<endl;
+cin>> n;
+for(i=0;i<= n;i++)
+{
+sum = sum + i;
+}
+cout<< "Sum of natural "<<n;
+cout<< "numbers is:"<< sum;
+}
